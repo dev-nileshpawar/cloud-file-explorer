@@ -1,16 +1,15 @@
-import { Fragment } from "react/jsx-runtime"
+import { Fragment, useState } from "react";
 import { FileComponent } from "./File"
-import { useState } from "react"
 
-export const FolderComponent = (props)=>{
-    const [folder, updateFolder] = useState(props)
+export const FolderComponent = ({childs, name})=>{
+    const [expand, updateExpansion] = useState(false)
     const openCloseFolder = ()=>{
-        updateFolder({...folder, isExpanded: !folder.isExpanded});
+        updateExpansion(!expand);
     }
     return (<div className="folder">
-        <p onClick={()=>openCloseFolder()} style={{cursor:"pointer"}}>{folder.isExpanded ?"┗📂 ":"┗📁 " }{folder.name}</p>
-        {(folder.isExpanded? folder.childs: []).map(({name, type, childs}, i)=>{
-            return (<Fragment key={i}>
+        <p onClick={()=>openCloseFolder()} style={{cursor:"pointer"}}>{expand ?"┗📂 ":"┗📁 " }{name}</p>
+        {(expand? childs: []).map(({name, type, childs, expand}, i)=>{
+            return (<Fragment key={name}>
                 {type === "folder"?<FolderComponent name={name} childs={childs} /> : <FileComponent name={name}/>}
             </Fragment>)
         })}

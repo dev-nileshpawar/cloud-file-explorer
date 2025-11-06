@@ -2,27 +2,22 @@
   "root": {
     "name": "Root",
     "type": "folder",
-    "isExpanded": false,
     "childs": [
       {
         "name": "Documents",
         "type": "folder",
-        "isExpanded": false,
         "childs": [
           {
             "name": "Work",
             "type": "folder",
-            "isExpanded": false,
             "childs": [
               {
                 "name": "ProjectA",
                 "type": "folder",
-                "isExpanded": false,
                 "childs": [
                   {
                     "name": "Design",
                     "type": "folder",
-                    "isExpanded": false,
                     "childs": [
                       {
                         "name": "UI_Mockup.png",
@@ -41,7 +36,6 @@
                   {
                     "name": "Backend",
                     "type": "folder",
-                    "isExpanded": false,
                     "childs": [
                       {
                         "name": "API_Documentation.docx",
@@ -62,7 +56,6 @@
               {
                 "name": "ProjectB",
                 "type": "folder",
-                "isExpanded": false,
                 "childs": [
                   {
                     "name": "Requirements.pdf",
@@ -77,12 +70,10 @@
           {
             "name": "Personal",
             "type": "folder",
-            "isExpanded": false,
             "childs": [
               {
                 "name": "Bills",
                 "type": "folder",
-                "isExpanded": false,
                 "childs": [
                   {
                     "name": "Electricity_Bill_Aug.pdf",
@@ -105,17 +96,14 @@
       {
         "name": "Media",
         "type": "folder",
-        "isExpanded": false,
         "childs": [
           {
             "name": "Photos",
             "type": "folder",
-            "isExpanded": false,
             "childs": [
               {
                 "name": "Vacation",
                 "type": "folder",
-                "isExpanded": false,
                 "childs": [
                   {
                     "name": "GoaTrip1.jpg",
@@ -130,7 +118,6 @@
           {
             "name": "Videos",
             "type": "folder",
-            "isExpanded": false,
             "childs": [
               {
                 "name": "DemoPresentation.mp4",
