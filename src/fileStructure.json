@@ -1,0 +1,153 @@
+{
+  "root": {
+    "name": "Root",
+    "type": "folder",
+    "isExpanded": false,
+    "childs": [
+      {
+        "name": "Documents",
+        "type": "folder",
+        "isExpanded": false,
+        "childs": [
+          {
+            "name": "Work",
+            "type": "folder",
+            "isExpanded": false,
+            "childs": [
+              {
+                "name": "ProjectA",
+                "type": "folder",
+                "isExpanded": false,
+                "childs": [
+                  {
+                    "name": "Design",
+                    "type": "folder",
+                    "isExpanded": false,
+                    "childs": [
+                      {
+                        "name": "UI_Mockup.png",
+                        "type": "file",
+                        "size": "1.2 MB",
+                        "modified": "2025-10-15T09:00:00Z"
+                      },
+                      {
+                        "name": "Wireframe.pdf",
+                        "type": "file",
+                        "size": "560 KB",
+                        "modified": "2025-10-16T14:30:00Z"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Backend",
+                    "type": "folder",
+                    "isExpanded": false,
+                    "childs": [
+                      {
+                        "name": "API_Documentation.docx",
+                        "type": "file",
+                        "size": "120 KB",
+                        "modified": "2025-10-12T07:45:00Z"
+                      },
+                      {
+                        "name": "Schema.sql",
+                        "type": "file",
+                        "size": "35 KB",
+                        "modified": "2025-10-13T11:20:00Z"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ProjectB",
+                "type": "folder",
+                "isExpanded": false,
+                "childs": [
+                  {
+                    "name": "Requirements.pdf",
+                    "type": "file",
+                    "size": "80 KB",
+                    "modified": "2025-09-30T12:00:00Z"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Personal",
+            "type": "folder",
+            "isExpanded": false,
+            "childs": [
+              {
+                "name": "Bills",
+                "type": "folder",
+                "isExpanded": false,
+                "childs": [
+                  {
+                    "name": "Electricity_Bill_Aug.pdf",
+                    "type": "file",
+                    "size": "50 KB",
+                    "modified": "2025-08-15T10:00:00Z"
+                  },
+                  {
+                    "name": "Internet_Bill_Sept.pdf",
+                    "type": "file",
+                    "size": "45 KB",
+                    "modified": "2025-09-10T09:00:00Z"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Media",
+        "type": "folder",
+        "isExpanded": false,
+        "childs": [
+          {
+            "name": "Photos",
+            "type": "folder",
+            "isExpanded": false,
+            "childs": [
+              {
+                "name": "Vacation",
+                "type": "folder",
+                "isExpanded": false,
+                "childs": [
+                  {
+                    "name": "GoaTrip1.jpg",
+                    "type": "file",
+                    "size": "2.5 MB",
+                    "modified": "2025-05-22T11:00:00Z"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Videos",
+            "type": "folder",
+            "isExpanded": false,
+            "childs": [
+              {
+                "name": "DemoPresentation.mp4",
+                "type": "file",
+                "size": "45 MB",
+                "modified": "2025-04-10T14:10:00Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Readme.txt",
+        "type": "file",
+        "size": "5 KB",
+        "modified": "2025-11-01T08:15:00Z"
+      }
+    ]
+  }
+}
