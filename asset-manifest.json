@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cloud-file-explorer/static/css/main.84d9affc.css",
+    "main.css": "/cloud-file-explorer/static/css/main.1fb261ed.css",
     "main.js": "/cloud-file-explorer/static/js/main.95fed2df.js",
     "static/js/453.00c6f5d5.chunk.js": "/cloud-file-explorer/static/js/453.00c6f5d5.chunk.js",
     "index.html": "/cloud-file-explorer/index.html",
-    "main.84d9affc.css.map": "/cloud-file-explorer/static/css/main.84d9affc.css.map",
+    "main.1fb261ed.css.map": "/cloud-file-explorer/static/css/main.1fb261ed.css.map",
     "main.95fed2df.js.map": "/cloud-file-explorer/static/js/main.95fed2df.js.map",
     "453.00c6f5d5.chunk.js.map": "/cloud-file-explorer/static/js/453.00c6f5d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84d9affc.css",
+    "static/css/main.1fb261ed.css",
     "static/js/main.95fed2df.js"
   ]
 }
