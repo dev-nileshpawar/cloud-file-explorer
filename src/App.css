@@ -4,11 +4,37 @@
 
 .folder {
   margin-left: 20px;
-  cursor: 'pointer';
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .file {
   margin-left: 10px;
   /* border-left: 3px solid gray; */
   padding-left: 10px;
+}
+.folder p:hover {
+  background-color: #f4f4f4;
+}
+
+.folder-children {
+  /* margin-left: 10px; */
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.folder-children.open {
+  max-height: 100%;
+  opacity: 1;
+}
+
+.folder p {
+  margin: 2px 0;
+  transition: background-color 0.2s ease;
+}
+
+.folder p:hover {
+  background-color: #f2f2f2;
 }
